@@ -1,0 +1,51 @@
+/* recruit_detail.css */
+@charset "utf-8";
+
+/* design.css */
+  #wrap{width:100%; height:auto; background-color:#adadad;margin:0 auto;}
+
+/* #headBox */
+  #headBox{width:100%; height:auto; background-color:#adf;margin:0 auto; padding:0.5rem; box-sizing:border-box;}
+  h1{width:150px; height:70px; background-color:#ffa; float:left; margin-bottom: 10px;}
+
+  #ulb{width:800px;height:50px; float:right; }
+  #ulb>ul{width:100%; height:100%;}
+  #ulb>ul>li{width:100px; height:100%; background-color:#ada;float:left;margin-right:5px; border-right: 3px solid #666; text-align: center; line-height: 50px; font-size: 10pt;color:#333;}
+
+  #gnb{width:100%; height:100%; float:left; padding:0.5 rem; }
+  
+  /* menuBox Test */
+  #menuBox{width:900px;height:auto; margin:0 auto;}
+  #menuBox:after{content:" "; display: block;clear: both;}
+  #menuBox>li{width:120px; height: 50px; float: left; margin-left: 0.5rem; background-color: #aad}
+  #menuBox>li>dl{width: 100%; height: 100%; position: relative; z-index:500;}
+  #menuBox>li>dl>dt{width: 100%; height: 100%;  text-align: center; font-size: 12pt; line-height: 50px; }
+  #menuBox>li>dl>dd{float:left; }
+  #menuBox>li>dl>dd>ul{width:100%; height:auto; display:none;}
+  #menuBox>li>dl>dd>ul>li{width:120px; height:auto; text-align: center;}
+
+  /* #recruitDetailBox */
+  #recruitDetailBox{width:100%; height:auto; background-color:#dda; margin:0 auto; padding:0.5rem; box-sizing:border-box;}
+  #recruitDetailBox>.list_wrap{width:960px; height:auto; margin:0 auto; margin-top:20px;margin-bottom:50px;} 
+  .position_box{width:100%; height:auto;}
+  .crudetail_title{width:750px; height:30px; margin-top:50px; margin-bottom: 20px;}
+  .position_explain{width:100%; height:auto;}
+      .map_box{width:800px; height:400px; margin:0 auto; margin-top:20px;}
+      .map_img{width:400px; height:400px; float:left; background-color:#a58;}
+      .map_address{width:400px; height:400px; float:left; text-align: center; padding:7rem 4rem; box-sizing: border-box;}
+
+  .whatwork_box{width:100%; height:auto;}
+    .cruwork1{width:100%; height:200px; margin-bottom: 10px; margin-top:50px;}
+      .cru_img1{width:200px; height: 200px; float:left; background-color:#add;}
+      .cru_exp1{width:760px; height:200px; float:left; padding:0.5rem; box-sizing: border-box; background-color:#fff;}
+    .cruwork2{width:100%; height:200px; margin-bottom: 10px;}
+      .cru_img2{width:200px; height: 200px; float:right; background-color:#add;}
+      .cru_exp2{width:760px; height:200px; float:right; padding:0.5rem; box-sizing: border-box;background-color:#fff;}
+  
+  
+
+  /* #footBox */
+  #footBox{width:100%; height:auto; background-color:#666;margin:0 auto; padding:0.5rem; box-sizing:border-box;}
+  #footBox>.foot_content{width:100%; height:auto;}
+  #footBox>.foot_content>.foot_logo{width:150px; height:70px; background-color:#ffa; float:left; margin-right:50px;}
+  #footBox>.foot_content>.foot_info{width:80%; height:auto; float:left; margin-top:20px;}

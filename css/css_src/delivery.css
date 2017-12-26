@@ -1,0 +1,80 @@
+/* delivery.css */
+@charset "utf-8";
+
+/* design.css */
+  #wrap{width:100%; height:auto; background-color:#adadad;margin:0 auto;}
+
+/* #headBox */
+  #headBox{width:100%; height:auto; background-color:#adf;margin:0 auto; padding:0.5rem; box-sizing:border-box;}
+  h1{width:150px; height:70px; background-color:#ffa; float:left; margin-bottom: 10px;}
+
+  #ulb{width:800px;height:50px; float:right; }
+  #ulb>ul{width:100%; height:100%;}
+  #ulb>ul>li{width:100px; height:100%; background-color:#ada;float:left;margin-right:5px; border-right: 3px solid #666; text-align: center; line-height: 50px; font-size: 10pt;color:#333;}
+
+  #gnb{width:100%; height:100%; float:left; padding:0.5 rem; }
+  
+  /* menuBox Test */
+  #menuBox{width:900px;height:auto; margin:0 auto;}
+  #menuBox:after{content:" "; display: block;clear: both;}
+  #menuBox>li{width:120px; height: 50px; float: left; margin-left: 0.5rem; background-color: #aad}
+  #menuBox>li>dl{width: 100%; height: 100%; position: relative; z-index:500;}
+  #menuBox>li>dl>dt{width: 100%; height: 100%;  text-align: center; font-size: 12pt; line-height: 50px; }
+  #menuBox>li>dl>dd{float:left; }
+  #menuBox>li>dl>dd>ul{width:100%; height:auto; display:none;}
+  #menuBox>li>dl>dd>ul>li{width:120px; height:auto; text-align: center;}
+
+  /* #deliveryBox */
+  #deliveryBox{width:100%; height:auto; background-color:#dda; margin:0 auto; padding:0.5rem; box-sizing:border-box;}
+  #deliveryAll{width:900px; height:auto; margin:0 auto; padding:0.5rem; box-sizing: border-box; margin-top:50px;}
+  #deliveryAll>.delivery_btn{width:100px; height:30px; float:right}
+  #deliveryAll>.delivery_btn>button{width:100px; height:30px; background-color:#add;}
+  .base_fare{width:300px; height:30px; margin:0 auto; text-align: center; line-height: 30px;}
+  #deliveryAll>.delivery_title{width:100px; height:30px;}
+  #deliveryAll>.delivery_listul{width:800px; height:auto; float:left; margin-left:70px; margin-top:30px;}
+  #deliveryAll>.delivery_listul>li{width:150px; height:auto; text-align: center; margin-right:50px;}
+    .delivery_listul>.delivery_listli_1{float:left; margin-bottom:30px;}
+    .delivery_listul>.delivery_listli_2{float:left; margin-bottom:30px;}
+    .delivery_listul>.delivery_listli_3{float:left; margin-bottom:30px;}
+    .delivery_listul>.delivery_listli_4{float:left; margin-bottom:30px;}
+  #deliveryAll>.delivery_listul>li>dl{width:100%; height:auto;}
+  #deliveryAll>.delivery_listul>li>dl>dt{width:100%; height:30px;}
+
+  .warn_note{width:850px; height:auto; margin:0 auto; border:2px solid #555; background-color:#fad; padding:0.5rem; box-sizing: border-box; margin-bottom:50px; margin-top:20px;}
+    .warn_title{width:300px; height:30px;}
+    .warn_list{width:850px; height:120px; margin:0 auto; margin-top:20px;}
+    .warn_list>li{width:850px;height:30px; margin-top:10px;}
+
+  /* #parcelBox */
+  #parcelBox{width:100%; height:auto; background-color:#dda; margin:0 auto; padding:0.5rem; box-sizing:border-box;}
+  #parcelAll{width:900px; height:auto; margin:0 auto; padding:0.5rem; box-sizing: border-box;}
+  #parcelAll>.parcel_title{width:100px; height:30px;}
+  #parcelAll>.parcel_listul{width:600px; height:auto; float:left; margin-top:30px; margin-left:150px;}
+  #parcelAll>.parcel_listul>li{width:150px; height:auto; text-align: center; margin-right:50px;}
+    .parcel_listul>.parcel_listli_1{float:left; margin-bottom:30px;}
+    .parcel_listul>.parcel_listli_2{float:left; margin-bottom:30px;}
+    .parcel_listul>.parcel_listli_3{float:left; margin-bottom:30px;}
+    .parcel_listul>.parcel_listli_4{float:right;}
+    .parcel_listul>.parcel_listli_5{float:right;}
+    .parcel_listul>.parcel_listli_6{float:right;}
+  #parcelAll>.parcel_listul>li>dl{width:100%; height:auto;}
+  #parcelAll>.parcel_listul>li>dl>dt{width:100%; height:30px;}
+    .step_circle{width:150px; height:150px; border-radius: 50%; border:2px solid #555; background-color:#37f;}
+    .step_exp{width:150px; height:auto;}
+
+  .service_fare{width:180px; height:auto; text-align: center; float:left; margin-top:150px; margin-left:40px;}
+  .service_fare>.secvice_title{width:70px; height:30px; margin:0 auto;}
+  .service_fare>.prodect_p{float:left;}
+  .service_fare>.prodect_p>dl{border:1px solid #333;}
+  .service_fare>.prodect_p>dl>dt{width:80px;height:30px;border:2px solid #333;}
+  .service_fare>.prodect_p>dl>dd{width:80px;height:30px;border:2px solid #333;}
+  .service_fare>.service_p{float:left;}
+  .service_fare>.service_p>dl{border:1px solid #333;}
+  .service_fare>.service_p>dl>dt{width:80px;height:30px;border:2px solid #333;}
+  .service_fare>.service_p>dl>dd{width:80px;height:30px;border:2px solid #333;}
+
+  /* #footBox */
+  #footBox{width:100%; height:auto; background-color:#666;margin:0 auto; padding:0.5rem; box-sizing:border-box;}
+  #footBox>.foot_content{width:100%; height:auto;}
+  #footBox>.foot_content>.foot_logo{width:150px; height:70px; background-color:#ffa; float:left; margin-right:50px;}
+  #footBox>.foot_content>.foot_info{width:80%; height:auto; float:left; margin-top:20px;}
