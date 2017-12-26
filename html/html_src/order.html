@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/css_base/reset.css">
+    <link rel="stylesheet" href="../../css/css_base/common.css">
+    <link rel="stylesheet" href="../../css/css_src/order.css">
+    <link rel="alle-tioch-icon" href="../favicon,png">
+    <link rel="shortcut icon" href="../fasicon.png" type="image/x-icon">
+    <!--[if lte IE9]>
+        <script src="../js/base/html5shiv-printshiv.js"></script>
+        <script src="../js/base/html5shiv.js"></script>
+    <![endif]-->
+    <title>order</title>
+</head>
+<body>
+  <div id="wrap">
+    <header id="headBox" class="clearfix">
+      <h1>logo</h1>
+      <div id="searchBox">
+        <h2 class="hidden">상품검색</h2>
+        <div class="searchIcon"></div>
+      </div>
+      <nav id="ulb">
+        <h2 class="hidden">Utility navigation bar</h2>
+        <ul>
+          <li>장바구니</li>
+          <li>주문조회</li>
+          <li>Other Country</li>
+          <li>고객지원</li>
+          <li>회원가입</li>
+          <li>로그인</li>
+          <li class="last">About IKEA</li>
+        </ul>
+      </nav>
+      <nav id="gnb">
+        <h2 class="hidden">Global navigation bar</h2>
+        <ul id="menuBox">
+          <li>
+            <dl>
+              <dt>전체</dt>
+              <dd>
+                <ul class="all_product">
+                  <li><a href="#"></a></li>
+                </ul>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>욕실</dt>
+              <dd>
+                <ul  class="all_product">
+                  <li><a href="#">욕실용품</a></li>
+                  <li><a href="#">욕실수납</a></li>
+                  <li><a href="#">수도꼭지</a></li>
+                  <li><a href="#">세면기</a></li>
+                  <li><a href="#">세면대</a></li>
+                  <li><a href="#">세탁기</a></li>
+                  <li><a href="#">욕실거울</a></li>
+                  <li><a href="#">욕실매트</a></li>
+                  <li><a href="#">샤워커튼</a></li>
+                  <li><a href="#">수건</a></li>
+                </ul>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>주방</dt>
+              <dd>
+                <ul>
+                  <li><a href="#">식기</a></li>
+                  <li><a href="#">디너웨어</a></li>
+                  <li><a href="#">유리제품</a></li>
+                  <li><a href="#">접시</a></li>
+                  <li><a href="#">테이블</a></li>
+                  <li><a href="#">조리용품</a></li>
+                  <li><a href="#">주방기기</a></li>
+                  <li><a href="#">냄비</a></li>
+                  <li><a href="#">프라이팬</a></li>
+                  <li><a href="#">오븐용기</a></li>
+                  <li><a href="#">칼</a></li>
+                  <li><a href="#">계량도구</a></li>
+                  <li><a href="#">제빵도구</a></li>
+                  <li><a href="#">주방수납</a></li>
+                </ul>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>가구</dt>
+              <dd>
+                <ul>
+                  <li><a href="#">의자</a></li>
+                  <li><a href="#">수납</a></li>
+                  <li><a href="#">책상</a></li>
+                  <li><a href="#">쇼파</a></li>
+                  <li><a href="#">화장대</a></li>
+                  <li><a href="#">옷장</a></li>
+                  <li><a href="#">침대|매트릭스</a></li>
+                </ul>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>홈데코</dt>
+              <dd>
+                <ul>
+                  <li><a href="#">시계</a></li>
+                  <li><a href="#">장식용품</a></li>
+                  <li><a href="#">액자</a></li>
+                </ul>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>유아/어리이용품</dt>
+              <dd>
+                <ul>
+                  <li><a href="#">식기</a></li>
+                  <li><a href="#">장난감</a></li>
+                  <li><a href="#">침대</a></li>
+                  <li><a href="#">매트릭스</a></li>
+                  <li><a href="#">책상|의자</a></li>
+                  <li><a href="#">수유|기저귀교환</a></li>
+                  <li><a href="#">어린이용품</a></li>
+                  <li><a href="#">안전</a></li>
+                  <li><a href="#">소형가구</a></li>
+                  <li><a href="#">소형수납</a></li>
+                </ul>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>홈퍼니싱</dt>
+              <dd>
+                <ul>
+                  <li><a href="#"></a></li>
+                </ul>  
+              </dd>
+            </dl>
+          </li>
+        </ul>
+      </nav>
+    </header> <!-- // #headBox -->
+
+    <!-- #orderBox -->
+    <article id="orderBox">
+      <div id="orderAll" class="clearfix">
+        <div id="titleBox" class="clearfix">
+          <h2 id="orderTitle">주문서작성 | 결제</h2>
+          <div class="title_line"></div>
+        </div>
+        <div id="orderList" class="clearfix">
+          <div class="order_item">1. 주문하는 상품</div>
+          <dl class="order_lists">
+            <dt class="order_title">
+              <ul class="order_titleul clearfix">
+                <li class="item_box">상품</li>
+                <li class="order_count">수량</li>
+                <li class="order_price">주문금액</li>
+                <li class="ikea_service">서비스</li>
+              </ul>
+            </dt>
+            <dd class="order_conts">
+              <ul class="order_listul clearfix">
+                <li class="order_item_listbox">
+                  <div class="order_item_image"></div>
+                  <div class="order_itemp">
+                    <p class="order_item_name">Lorem ipsum dolor sit</p>
+                    <p class="order_item_option">Lorem ipsum dolor sit amet consectetur</p>
+                  </div>
+                </li>
+                <li class="order_counts">##</li>
+                <li class="order_allprice">###,###</li>
+                <li class="order_sevice">조립신청</li>
+              </ul>
+            </dd>
+          </dl>
+          <div class="total_price">TOTAL : ###,###</div>
+        </div>
+        <div class="order_inputinfo clearfix">
+          <div class="delivery_info">2. 주문고객 | 배송지 정보</div>
+          <div class="agreement_box">
+            <p class="agree_title">비회원 개인정보를 위한 이용자 동의서</p>
+            <p class="agreeornot_box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos reiciendis, fuga aspernatur exercitationem tempora corrupti, eos deserunt repellat aut dolores laboriosam quo voluptatibus dolorum repudiandae cupiditate consequatur illo, ad accusamus.
+            </p>
+            <ul class="yesorno_box">
+              <li class="yes_box">
+                <div class="radio_btn"></div>
+                <div class="yes_btn">동의</div>
+              </li>
+              <li class="no_box">
+                <div class="radio_btn"></div>
+                <div class="no_btn">동의안함</div>
+              </li>
+            </ul>
+          </div>
+          <ul class="sending_people">
+            <li class="send_name">
+              <dl>
+                <dt class="name_box">이름</dt>
+                <dd class="put_box"></dd>
+              </dl>
+            </li>
+            <li class="call_num">
+              <dl>
+                <dt class="callnum_box">연락처</dt>
+                <dd></dd>
+                <dd class="vertical_line">-</dd>
+                <dd></dd>
+                <dd class="vertical_line">-</dd>
+                <dd></dd>
+              </dl>
+            </li>
+            <li class="email_add">
+              <dl>
+                <dt class="email_box">E-mail</dt>
+                <dd></dd>
+                <dd class="at_mark">@</dd>
+                <dd></dd>
+              </dl>
+            </li>
+          </ul>
+          <div class="clearfix">
+            <button type="button" class="ordersame_btn">주문자와 동일 적용</button>
+          </div>
+          <ul class="receive_people">
+            <li class="recive_name">
+              <dl>
+                <dt class="reciname_box">받으실분</dt>
+                <dd></dd>
+              </dl>
+            </li>
+            <li class="phone_num">
+              <dl>
+                <dt>연락처</dt>
+                <dd></dd>
+                <dd class="vertical_line">-</dd>
+                <dd></dd>
+                <dd class="vertical_line">-</dd>
+                <dd></dd>
+              </dl>
+            </li>
+            <li class="address_put">
+              <dl>
+                <dt>주소</dt>
+                <dd></dd>
+                <dd class="addsearch_btn">
+                  <button type="button">검색</button>
+                  <!-- <div class="add_alot">
+                    <ul>
+                      <li>
+                        <div></div>
+                        <div>지번</div>
+                      </li>
+                      <li>
+                        <div></div>
+                        <div>도로명</div>
+                      </li>
+                    </ul>
+                    <div></div>
+                    <div class="addsearch_btn"><button type="button">검색</button>
+                  </div> -->
+                </dd>
+                <dd>나머지주소</dd>
+              </dl>
+            </li>
+            <li class="deliv_message">
+              <dl>
+                <dt>배송메세지</dt>
+                <dd></dd>
+              </dl>
+            </li>
+          </ul>
+        </div>
+        <div class="payment_box clearfix">
+          <div class="payment">3. 결제수단</div>
+          <div class="payway_box">
+            <div>
+              <ul>
+                <li>
+                  <div class="radio_btn"></div>
+                  <div>실시간계좌이체</div>
+                </li>
+                <li>
+                  <div class="radio_btn"></div>
+                  <div>신용카드</div>
+                </li>
+                <li>
+                  <div class="radio_btn"></div>
+                  <div>휴대폰결제</div>
+                </li>
+              </ul>
+              <dl>
+                <dt>결제수단 : </dt>
+                <dd></dd>
+              </dl>
+            </div>
+          </div>
+        <div id="pay_btn">
+          <button type="button">결제하기</button>
+        </div>
+        </div>
+      </div>
+    </article>
+
+
+    <!-- #footBox -->
+    <footer id="footBox" class="clearfix">
+      <div class="foot_content">
+        <div class="foot_logo">LOGO</div>
+        <div class="foot_info">© Inter IKEA Systems B.V. 1999 - 2014 | 웹사이트이용약관 | IKEA Korea 개인정보처리방침 | IKEA FAMILY 개인정보취급처리방침 | IKEA 고객지원센터 1670-4532</div>
+      </div>
+    </footer> <!-- // #footBox -->
+    </div>
+    <!-- script -->
+    <script src="../../js/js_base/jquery-3.2.1.js"></script>
+    <script src="../../js/js_base/jquery-ui.js"></script>
+    <script src="../../js/js_src/order.js"></script>
+</body>
+</html>
