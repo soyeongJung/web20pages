@@ -1,0 +1,13 @@
+/* newsDetail.css */
+
+@charset "utf-8";
+
+/* design.css */
+/* #newsDetailBox */
+  #newsDetailBox{width:100%; height:auto; margin:0 auto; padding:0.5rem; box-sizing:border-box;}
+  #newsDetailBox>.list_wrap{width:960px; height:auto; margin:0 auto; margin-top:60px; margin-bottom:90px;} 
+  #newsDetailBox>.list_wrap>.newsdetail_title{width:960px; height:30px; margin-top:50px; margin-bottom: 80px; font-weight: bold;}
+  #newsDetailBox>.list_wrap>.newsdetail_img{width:960px; height:540px; float:left;background-image:url(../../ikea_design/image/news/img_01.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; margin-bottom:60px;}
+  #newsDetailBox>.list_wrap>ul{width:900px; height:auto; margin:0 auto;}
+  #newsDetailBox>.list_wrap>ul>li{width:100%; height:auto; margin:0 auto; margin-bottom: 30px;}
+   #newsDetailBox>.list_wrap>ul>li>p{width:820px; height:auto; padding:0.5rem; box-sizing: border-box; margin:0 auto; line-height: 160%;}

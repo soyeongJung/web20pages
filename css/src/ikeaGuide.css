@@ -1,0 +1,39 @@
+/* ikeaGuide.css */
+
+@charset "utf-8";
+
+/* design.css */
+/* #guideBox */
+  #guideBox{width:100%; height:auto; margin:0 auto; padding:0.5rem; box-sizing:border-box; margin-bottom:60px;}
+  #guideBox>.list_wrap{width:960px; height:auto; margin:0 auto; margin-top:60px;margin-bottom:30px;} 
+  #guideBox>.list_wrap>.guide_title{width:100%; height:30px; margin-top:50px; margin-bottom: 30px;}
+  #guideBox>.list_wrap>p{width:800px; height:auto; margin:0 auto;}
+
+  .location_map{width:100%; height:auto; margin:0 auto;}
+  .map_pic{width:560px; height:840px; background-image:url(../../ikea_design/image/shopGuide/map.png); background-repeat: no-repeat; background-position: center; background-size: contain; margin-top:30px;}
+  .area_btn{width:100%; height:100%; position:relative;}
+  .area_btn>button{width:18px; height:18px; border-radius: 50%; background-color:#155ec4; position:absolute;}
+  .area_btn>button:hover,
+  .area_btn>button:focus,
+  .area_btn>button.focus{background-color:rgba(255,218,25,0.8); transform: scale(4);}
+  .gm_dot{top:50%; left:50%; margin-top:-119px; margin-left:-109px;}
+  .gy_dot{top:50%; left:50%; margin-top:-39px; margin-left:-79px;}
+  .area_btn>address{width:340px; height:150px; border:3px solid #155ec4; text-align: center; padding:3.5rem; box-sizing: border-box; position:absolute; top:50%; margin-top:-75px; right:0; margin-right:-380px; display:none;}
+  .area_btn>address.select_add{display:block;}
+
+  .store_info{width:100%; height:auto; margin-top:30px; display:none;}
+  .store_info:after{content:" "; display:block; clear:both;}
+  .store_info.store_select{display:block;}
+  .gmstore_img{width:480px; height:300px; background-image:url(../../ikea_design/image/shopGuide/gwangmeong.jpg); background-repeat: no-repeat; background-position:center; background-size: 100% 100%; float:left;}
+  .gystore_img{width:480px; height:300px; background-image:url(../../ikea_design/image/shopGuide/goyang.jpg); background-repeat: no-repeat; background-position:center; background-size: 100% 100%; float:left;}
+  .infotext{width:440px; height:auto; float:right;}
+  .infotitle{width:100%; height:auto; text-align: center; margin-bottom:30px;font-size: 2rem; margin-top:30px;}
+  .infotitle:after{content:" "; display:block; clear:both;}
+  /*.fa-clock{font-size:2rem;}*/
+  /*.infotitle>div{width:150px; height:auto; float:left;font-size:2rem; font-weight: bold; }*/
+  .timeinfo{margin-bottom: 20px;}
+  .timeinfo>span{/*display:block;*/ width:120px; color:#155ec4; font-weight: bold; margin-right:30px;}
+  .go_btn{width:440px; height:60px; margin-top:60px;}
+  .go_btn>button{width:100%; height:100%; background-color:#155ec4; color:#fff; font-weight: bold;}
+  .go_btn>button:hover,
+  .go_btn>button:focus{text-decoration: underline;}

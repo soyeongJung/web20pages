@@ -1,0 +1,88 @@
+/* productList.css */
+
+@charset "utf-8";
+
+/* design.css */
+/* #productBox */
+  #productBox{width:100%; height:auto; margin:0 auto; padding:0.5rem; box-sizing:border-box;}
+  #productBox>.list_wrap{width:960px; height:auto; margin:0 auto; margin-top:20px;margin-bottom:50px;} 
+  #productBox>.list_wrap>.product_title{width:300px; height:30px; margin-top:50px; margin-bottom: 30px;}
+  #productBox>.list_wrap>ul{width:960px; height:auto;}
+  #productBox>.list_wrap>ul>li{width:250px; height:auto; margin-right:80px; margin-bottom:90px; float:left;}
+  #productBox>.list_wrap>ul>li:nth-child(3n+1){margin-left: 0;}
+  #productBox>.list_wrap>ul>li:nth-child(3n){margin-right: 0;}
+  #productBox>.list_wrap>ul>li>a{display:block; width:100%; height:100%;}
+  #productBox>.list_wrap>ul>li>a>dl{width:100%; height:auto;}
+  #productBox>.list_wrap>ul>li>a>dl>dt{width:100%; height:250px; background-repeat: no-repeat; background-position: center; background-size: contain;}
+  #productBox>.list_wrap>ul>li:nth-of-type(1)>a>dl>dt{background-image:url(../../ikea_design/image/product/product_list/list_01.jpg);}
+  #productBox>.list_wrap>ul>li:nth-of-type(2)>a>dl>dt{background-image:url(../../ikea_design/image/product/product_list/list_02.jpg);}
+  #productBox>.list_wrap>ul>li:nth-of-type(3)>a>dl>dt{background-image:url(../../ikea_design/image/product/product_list/list_03.jpg);}
+  #productBox>.list_wrap>ul>li:nth-of-type(4)>a>dl>dt{background-image:url(../../ikea_design/image/product/product_list/list_04.jpg);}
+  #productBox>.list_wrap>ul>li:nth-of-type(5)>a>dl>dt{background-image:url(../../ikea_design/image/product/product_list/list_05.jpg);}
+  #productBox>.list_wrap>ul>li:nth-of-type(6)>a>dl>dt{background-image:url(../../ikea_design/image/product/product_list/list_06.jpg);}
+  #productBox>.list_wrap>ul>li:nth-of-type(7)>a>dl>dt{background-image:url(../../ikea_design/image/product/product_list/list_07.jpg);}
+  #productBox>.list_wrap>ul>li:nth-of-type(8)>a>dl>dt{background-image:url(../../ikea_design/image/product/product_list/list_08.jpg);}
+  #productBox>.list_wrap>ul>li:nth-of-type(9)>a>dl>dt{background-image:url(../../ikea_design/image/product/product_list/list_09.jpg);}
+  #productBox>.list_wrap>ul>li>a>dl>dd{width:100%; height:100px; color:#333; padding:4px; box-sizing: border-box; padding: 1rem;box-sizing: border-box; }
+  #productBox>.list_wrap>ul>li>a>dl>dd>div{width:200px; height:20px; margin-bottom:5px;}
+  #productBox>.list_wrap>ul>li>a>dl>dd>div.bottom{font-weight: bold; color:#125bc1;}
+
+  /* .newArrivalList */
+  #productBox>.newArrivalList{width:960px; height:auto; margin:0 auto; margin-top:20px;margin-bottom:50px; position:relative; overflow: hidden;}
+  #productBox #newLittleTittle{width:960px; height:50px; margin:0 auto; text-align: center; line-height: 50px; margin-top:50px;}
+  #productBox .new_arrivals_tittle{width:250px; height:50px; float:left;}
+
+  #productBox #newarrowBtn{width:960px; height:0; position:absolute; top:50%; margin-top:-25px; left:50%; margin-left:-480px;}
+  #productBox #newarrowBtn>.newleft_arrow{width:100px; height:100px; float:left; background-color:transparent;}
+  #productBox .newleft_arrow i{font-size:100px; color:#555;}
+  /*.newleft_arrow i{width:100%; height:100%; color:#555;}*/
+  #productBox #newarrowBtn>.newright_arrow{width:100px; height:100px; float:right; background-color:transparent;}
+  #productBox .newright_arrow i{font-size:100px; color:#555;}
+
+  #productBox #newList{width:200%; height:auto;}
+
+  #productBox .newList_box{width: 50%; float:left; box-sizing: border-box; 
+     outline-offset: -12px;}
+  #productBox .newList_box>div{width:100%; min-width: 960px; margin: 0 auto;}
+  
+  #productBox #newListFront{width:50%; min-width:960px; height:auto; margin:0 auto; padding:0 7.5% 0 7.5%; box-sizing: border-box;}
+  #productBox #newListFront>dl{width:250px; height: auto; float:left; margin:50px 30px 80px 0;}
+  #productBox #newListFront>dl:nth-of-type(1){margin-left:20px;}
+  #productBox #newListFront>dl:nth-child(3n+1){margin-left: 0;}
+  #productBox #newListFront>dl:nth-child(3n){margin-right: 0;}
+  #productBox #newListFront>dl.last{margin-right:0;}
+  #productBox #newListFront>dl>dt{width:100%; height:250px; background-repeat: no-repeat; background-position: center; background-size: cover;}
+  #productBox #newListFront>dl:nth-of-type(1)>dt{background-image:url(../../ikea_design/image/product/product_list/list_10.jpg);}
+  #productBox #newListFront>dl:nth-of-type(2)>dt{background-image:url(../../ikea_design/image/product/product_list/list_11.jpg);}
+  #productBox #newListFront>dl:nth-of-type(3)>dt{background-image:url(../../ikea_design/image/product/product_list/list_12.jpg);}
+  #productBox #newListFront>dl>dd{width:100%; height:60px; background-color:#fff; float:left; margin-top:20px;}
+  #productBox #newListFront>dl>dd>a{display:block; width:100%; height:100%;}
+  #productBox #newListFront>dl>dd>a>p:nth-of-type(1){color:#333; font-size:16px;}
+  #productBox #newListFront>dl>dd>a>p:nth-of-type(2){color:#333; font-size:16px; margin-top:10px;}
+  #productBox #newListFront>dl>dd>a>p:nth-of-type(3){color:#333; font-size:20px; font-weight: bold; margin-top:10px;}
+
+  #productBox #newListBack{width:50%; min-width:960px; height:auto; margin:0 auto; padding:0 7.5% 0 7.5%; box-sizing: border-box;}
+  #productBox #newListBack>dl{width:250px; height: auto; float:left; margin:50px 30px 80px 0;}
+  #productBox #newListBack>dl:nth-of-type(1){margin-left:20px;}
+  #productBox #newListBack>dl:nth-child(3n+1){margin-left: 0;}
+  #productBox #newListBack>dl:nth-child(3n){margin-right: 0;}
+  #productBox #newListBack>dl.last{margin-right:0;}
+  #productBox #newListBack>dl>dt{width:100%; height:250px; background-repeat: no-repeat; background-position: center; background-size: cover;}
+  #productBox #newListBack>dl:nth-of-type(1)>dt{background-image:url(../../ikea_design/image/product/product_list/list_13.jpg);}
+  #productBox #newListBack>dl:nth-of-type(2)>dt{background-image:url(../../ikea_design/image/product/product_list/list_14.jpg);}
+  #productBox #newListBack>dl:nth-of-type(3)>dt{background-image:url(../../ikea_design/image/product/product_list/list_15.jpg);}
+  #productBox #newListBack>dl>dd{width:100%; height:auto; background-color:#fff; float:left; margin-top:20px;}
+  #productBox #newListBack>dl>dd>a{display:block; width:100%; height:100%;}
+  #productBox #newListBack>dl>dd>a>p:nth-of-type(1){color:#333; font-size:16px;}
+  #productBox #newListBack>dl>dd>a>p:nth-of-type(2){color:#333; font-size:16px; margin-top:10px;}
+  #productBox #newListBack>dl>dd>a>p:nth-of-type(3){color:#333; font-size:20px; font-weight: bold; margin-top:10px;}
+
+
+
+
+
+
+
+
+
+

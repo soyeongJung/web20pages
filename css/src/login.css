@@ -1,0 +1,30 @@
+ /* login.css */
+@charset "utf-8";
+
+/* design.css */
+
+ /* #loginBox */
+#loginBox{width:100%; height:auto; margin:0 auto; }
+#loginAll{width:100%; height:auto;}
+#titleBox{width:100%; height:auto; margin:0 auto;}
+#loginTitle{width:960px; height:auto; margin:60px auto;}
+.login_img{width:100%; height:450px; background-image:url(../../ikea_design/image/login/login.png); background-position:center; background-repeat: no-repeat; background-size:100%; margin-bottom:90px;}
+
+#inputBox{width:100%; height:450px;}
+.login_form{width:100%; height:auto;}
+  #loginInput{width:620px; height:auto; margin:0 auto;}
+    #inputId{width:100%; height:60px; margin-bottom:30px; padding:0 1rem; box-sizing: border-box; border:1px solid #333;}
+    #inputPw{width:100%; height:60px;  padding:0 1rem; box-sizing: border-box; border:1px solid #333;}
+    .check_btn{width:100%; height:auto; margin:30px 0;}
+      #checkBox{position: absolute; z-index:-1; opacity: 0;}
+      label[for="checkBox"]:before{content:" "; width:1rem; height:1rem; display: inline-block;
+      box-sizing:border-box; margin-right: 0.5rem; border-radius: 5px;
+      border: 0.2rem solid  #155ec4;}
+      label[for="checkBox"]{width:50px; height:50px; cursor: pointer;}
+      #checkBox:focus+label{border-bottom: 0.2em solid  #f07;}
+      #checkBox:checked+label:before{background-color: #f07;}
+
+      .find_btn{width:220px; height:30px; background-color:#2f5eab; color:#fff; margin-left:150px;}
+      .join_btn{width:140px; height:30px; background-color:#ffda19; float:right;}
+    .login_btn{width:100%; height:60px; text-align: center; color:#fff; background-color:#155ec4; font-weight: bold;}
+

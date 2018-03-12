@@ -1,0 +1,24 @@
+/* homeIdeaDetail.css */
+@charset "utf-8";
+
+/* design.css */
+ 
+  /* #snsBox */
+  #snsBox{width:100%; height:auto; margin:0 auto; padding:0.5rem; box-sizing:border-box;}
+  #snsBox>.list_wrap{width:960px; height:auto; margin:0 auto; margin-top:60px;margin-bottom:30px;} 
+  #snsBox>.list_wrap>.sns_title{width:960px; height:30px; margin:0 auto; margin-top:50px; margin-bottom: 20px;}
+  #snsBox>.list_wrap>ul{width:780px; height:auto; margin:0 auto;}
+  #snsBox>.list_wrap>ul>li{width:240px; height:auto; margin-right:30px; margin-bottom:90px; float:left;}
+  #snsBox>.list_wrap>ul>li.last{margin-right:0;}
+  #snsBox>.list_wrap>ul>li>dl{width:240px; height:auto;}
+  #snsBox>.list_wrap>ul>li>dl>dt{width:100%; height:240px; background-repeat: no-repeat; background-size:cover; background-position:center; margin-bottom:10px;}
+  #snsBox>.list_wrap>ul>li:nth-of-type(1)>dl>dt{background-image:url(../../ikea_design/image/sns/sns_01.jpg);}
+  #snsBox>.list_wrap>ul>li:nth-of-type(2)>dl>dt{background-image:url(../../ikea_design/image/sns/sns_02.jpg);}
+  #snsBox>.list_wrap>ul>li:nth-of-type(3)>dl>dt{background-image:url(../../ikea_design/image/sns/sns_03.jpg);}
+  #snsBox>.list_wrap>ul>li:nth-of-type(4)>dl>dt{background-image:url(../../ikea_design/image/sns/sns_04.jpg);}
+  #snsBox>.list_wrap>ul>li:nth-of-type(5)>dl>dt{background-image:url(../../ikea_design/image/sns/sns_05.jpg);}
+  #snsBox>.list_wrap>ul>li:nth-of-type(6)>dl>dt{background-image:url(../../ikea_design/image/sns/sns_06.jpg);}
+  #snsBox>.list_wrap>ul>li:nth-of-type(7)>dl>dt{background-image:url(../../ikea_design/image/sns/sns_07.jpg);}
+  #snsBox>.list_wrap>ul>li:nth-of-type(8)>dl>dt{background-image:url(../../ikea_design/image/sns/sns_08.jpg);}
+  #snsBox>.list_wrap>ul>li:nth-of-type(9)>dl>dt{background-image:url(../../ikea_design/image/sns/sns_09.jpg);}
+  #snsBox>.list_wrap>ul>li>dl>dd{width:100%; height:auto; color:#333; padding:0.5rem; box-sizing: border-box;}

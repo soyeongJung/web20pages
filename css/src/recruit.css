@@ -1,0 +1,57 @@
+/* recruit.css */
+
+@charset "utf-8";
+
+/* design.css */
+/* #recruitBox */
+  #recruitBox{width:100%; height:auto; margin:0 auto; padding:0.5rem; box-sizing:border-box; overflow-x:hidden;}
+  .list_wrap{width:960px; height:auto; margin:0 auto; margin-top:60px;margin-bottom:90px;} 
+  .recruit_title{width:100%; height:30px; margin-bottom: 20px;}
+  .recruit_form_box{width:100%; height:auto;}
+
+  .recruit_search_box{width:620px; height:auto; margin:0 auto;margin-top: 70px; }
+
+  .reruit_all_search{width:610px; height: 60px; margin:5px;}
+  .reruit_all_search>legend{width:100%; height: 60px;}
+  #recruitSearchArea{width:100%; height: 100%;position:relative;}
+  #recruitSearch{width:100%; height: 100%; border-bottom:2px solid #155ec4; margin:0 auto; padding:0.5rem; box-sizing: border-box;}
+  #recruitSearchArea>button{width:auto; height:auto; position:absolute; right:0; top:50%; margin-top:-16px;}
+  #recruitSearchArea>button>.fa-search{color:#155ec4; font-size:2rem;}
+
+  .reruit_select_search{width:300px; height: 60px; float:left; margin:5px;}
+  .reruit_select_search>legend{width:100%; height: 60px;}
+  #recruitSelectArea{width:100%; height: 100%;position:relative;}
+  #recruitSelect{width:100%; height: 100%; border-bottom:2px solid #155ec4; margin:0 auto; padding:0.5rem; box-sizing: border-box;}
+  #recruitSelectArea>button{width:auto; height:auto; position:absolute; right:0; top:50%; margin-top:-16px;}
+
+  .fa-globe{color:#155ec4; font-size:2rem;}
+  .fa-thumbtack{color:#155ec4; font-size:2rem;}
+  .fa-briefcase{color:#155ec4; font-size:2rem;}
+  .fa-language{color:#155ec4; font-size:2rem;}
+  
+  .recruit_btn{width:620px; height:auto; margin:0 auto;}
+  .recruit_btn>button{width:300px; height:60px; margin-top:30px; font-weight: bold;}
+  .remove_btn{background-color:#155ec4; margin-right:15px; color:#fff;}
+  .searching_btn{background-color:#fad601; color:#333;}
+
+  .recruit_list{width:100%; height:auto; border:1px solid #155ec4; margin-top:30px;}
+  .recruit_list>li{width:20%; height:auto; margin:0 auto; float:left;}
+  .recruit_list>li:after{content:" "; display:block; clear:both;}
+
+  .recruit_list>li>dl{width:100%; height:auto; float:left;}
+  .recruit_list>li>dl>dt{width:100%; height:60px; background-color:#fff; text-align: center; background-color:#155ec4; color:#fff;line-height:60px;}
+  .recruit_list>li>dl>dd{width:100%; height:auto; background-color:#fff; text-align: center; line-height:30px; border:1px solid #eee;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

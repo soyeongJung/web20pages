@@ -1,0 +1,73 @@
+ /* login.css */
+@charset "utf-8";
+
+/* design.css */
+
+ /* #joinBox */
+#joinBox{width:100%; height:auto; margin:0 auto; }
+#joinAll{width:100%; height:auto;}
+#titleBox{width:100%; height:auto; margin:0 auto;}
+#joinTitle{width:960px; height:auto; margin:60px auto;}
+
+#agree_box{width:940px; height:auto;}
+.agreement{width:940px; height:390px; border:1px solid #333; margin:0 auto; padding:1rem; box-sizing: border-box; margin-bottom:30px; overflow-x: hidden; overflow-y: scroll}
+.agreement>p{width:100%; height:100%; font-size:16px;}
+.title_bold{font-weight: bold; font-size:18px;}
+.strong_bold{font-weight: bold;}
+.all_form{width:560px; height:auto; margin:0 auto 45px;}
+  #allCheck{width:100%; height:auto; margin:0 auto;}
+    #allCheckBox{position: absolute; z-index:-1; opacity: 0;}
+    
+    label[for="allCheckBox"]:before{content:" "; width:1rem; height:1rem; display: inline-block;
+    box-sizing:border-box; margin-right: 0.5rem; border-radius: 5px;
+    border: 0.2rem solid #155ec4;}
+    label[for="allCheckBox"]{width:100px; height:auto; cursor: pointer;float:left;}
+    #allCheckBox:focus+label{border-bottom: 0.2em solid  #f07;}
+    /*#allCheckBox:checked+label:before{background-color: #f07;}*/
+    #allCheckBox+label:before{content:" "; background-color: #fff;}
+    #allCheckBox+label.checked:before{background-color: #f07;}
+
+    #nonAllCheckBox{position: absolute; z-index:-1; opacity: 0;}
+    label[for="nonAllCheckBox"]:before{content:" "; width:1rem; height:1rem; display: inline-block;
+    box-sizing:border-box; margin-right: 0.5rem; border-radius: 5px;
+    border: 0.2rem solid  #155ec4;}
+    label[for="nonAllCheckBox"]{width:100px; height:auto; cursor: pointer; float:right;}
+    #nonAllCheckBox:focus+label{border-bottom: 0.2em solid  #f07;}
+    #nonAllCheckBox:checked+label:before{background-color: #f07;}
+
+.person_form{width:560px; height:auto; margin:0 auto;}
+    #personCheck{width:100%; height:auto; margin:0 auto;}
+    #personCheckBox{position: absolute; z-index:-1; opacity: 0;}
+    label[for="personCheckBox"]:before{content:" "; width:1rem; height:1rem; display: inline-block;
+    box-sizing:border-box; margin-right: 0.5rem; border-radius: 5px;
+    border: 0.2rem solid  #155ec4;}
+    label[for="personCheckBox"]{width:100px; height:auto; cursor: pointer; float:left;}
+    #personCheckBox:focus+label{border-bottom: 0.2em solid  #f07;}
+    /*#personCheckBox:checked+label:before{background-color: #f07;}*/
+    #personCheckBox+label:before{content:" "; background-color: #fff;}
+    #personCheckBox+label.checked:before{background-color: #f07;}
+
+    #nonPersonCheckBox{position: absolute; z-index:-1; opacity: 0;}
+    label[for="nonPersonCheckBox"]:before{content:" "; width:1rem; height:1rem; display: inline-block;
+    box-sizing:border-box; margin-right: 0.5rem; border-radius: 5px;
+    border: 0.2rem solid  #155ec4;}
+    label[for="nonPersonCheckBox"]{width:100px; height:auto; cursor: pointer; float:right;}
+    #nonPersonCheckBox:focus+label{border-bottom: 0.2em solid  #f07;}
+    #nonPersonCheckBox:checked+label:before{background-color: #f07;}
+
+.agreeall_div{width:700px; height:auto; margin:45px auto;}
+    .agree_all_form{width:100%; height:auto; margin:0 auto;}
+    #agreeAll{width:100%; height:auto; margin:0 auto;}
+    #agreeAllBox{position: absolute; z-index:-1; opacity: 0;}
+    label[for="agreeAllBox"]:before{content:" "; width:1rem; height:1rem; display: inline-block;
+    box-sizing:border-box; margin-right: 0.5rem; border-radius: 5px;
+    border: 0.2rem solid  #155ec4;}
+    label[for="agreeAllBox"]{width:300px; height:auto; cursor: pointer;}
+    #agreeAllBox:focus+label{border-bottom: 0.2em solid  #f07;}
+    /*#agreeAllBox:checked+label:before{background-color: #f07;}*/
+    #agreeAllBox+label:before{content:" "; background-color:#fff;}
+    #agreeAllBox+label.checked:before{background-color: #f07;}
+
+  .nbtn_box{width:960px; height:auto; margin:0 auto; margin-bottom:90px;}
+    .next_btn{width:100px; height:30px; background-color: #2f5eab; color:#fff; float:right; text-transform: uppercase;}
+

@@ -1,0 +1,64 @@
+/* setting.css */
+@charset "utf-8";
+
+/* delivery.css */
+
+    /* #deliveryBox */
+  #deliveryBox{width:100%; height:auto; background-color:#fff;}
+  #deliveryAll{width:100%; height:auto; margin-top:60px;}
+  .delivery_title{width:960px; height:30px; margin: 0 auto; margin-bottom:60px;}
+  .deliveryul_wrap{width:100%; height:auto; background-color:rgba(204,204,204,0.5);}
+  .based_price{width:960px; height:auto; margin:0 auto; text-align: center; font-size: 30px; padding-top:60px;}
+  .based_price>span{color:#025e9d; font-weight: bold; font-size: 30px;}
+  .based_price>button{width:100px; height:30px; font-size:16px; background-color:#155ec4; color:#fff; font-weight: bold; float:right;}
+  .delivery_listul{width:960px; height:auto; margin-top:30px;  margin: 0 auto; background-color:transparent; padding:60px; box-sizing: border-box;}
+  .delivery_listul>li{width:180px; height:200px; text-align: center; margin-right:40px; float:left;}
+  .delivery_listul>li>i{display:block; width:140px; height:120px; background-repeat: no-repeat; background-size:70%; margin: 0 auto; background-position:center;}
+  .delivery_listul>li>strong{display:block; color:#025e9d;}
+    .delivery_listul>li:nth-child(4){margin-right:0;}
+      .add_icon{background-image:url(../../ikea_design/icon/delivery/cart_01.png);}
+      .apply_icon{background-image:url(../../ikea_design/icon/delivery/apply.png);}
+      .doc_icon{background-image:url(../../ikea_design/icon/delivery/edit.png);}
+      .pack_icon{background-image:url(../../ikea_design/icon/delivery/package.png);}
+  
+/* #parcelBox */
+  #parcelBox{width:100%; height:auto; background-color:#fff;}
+  #parcelAll{width:100%; height:auto; margin-top:60px;}
+  .basep_price{width:960px; height:auto; margin:0 auto; text-align: center; font-size: 30px; padding-top:60px;}
+  .basep_price>span{color:#025e9d; font-weight: bold; font-size: 30px;}
+  .parcel_listul{width:760px; height:auto; margin-top:30px;  margin: 0 auto; background-color:transparent; padding:60px; box-sizing: border-box;}
+  .parcel_listul>li{width:180px; height:200px; text-align: center; margin-right:50px; float:left;}
+  .parcel_listul>li>i{display:block; width:140px; height:120px; background-repeat: no-repeat; background-size:70%; background-position:center; margin:0 auto;}
+  .parcel_listul>li>strong{display:block; color:#025e9d;}
+    .parcel_listul>li:nth-child(3n){margin-right:0;}
+    .parcel_listul>li:nth-child(4)~li{margin-bottom:0;}
+      .cartadd_icon{background-image:url(../../ikea_design/icon/delivery/cart_01.png);}
+      .parcel_listul .wrap_icon{background-image:url(../../ikea_design/icon/delivery/adhesive-tape.png); background-size:60%;}
+      .box_icon{background-image:url(../../ikea_design/icon/delivery/delivery-packaging-box.png);}
+      .desk_icon{background-image:url(../../ikea_design/icon/delivery/apply.png);}
+      .wallet_icon{background-image:url(../../ikea_design/icon/delivery/wallet.png);}
+      .recive_icon{background-image:url(../../ikea_design/icon/delivery/package.png);}
+
+  .warn_note{width:780px; height:auto; margin:0 auto; border:3px solid #025e9d; padding:1rem; box-sizing: border-box; margin-bottom:90px; position:relative; margin-top:100px;}
+    .warn_title{width:180px; height:30px; position:absolute; top:-10px; background-color:#fff; left:60px;}
+    .warn_list{width:100%; height:auto; margin:0 auto; margin-top:20px;}
+    .warn_list>li{width:100%;height:auto; margin-top:10px;}
+    .warn_list>li:before{content:"- ";}
+
+    .warn_list>li:nth-child(2)>span{display:block; color:#155ec4;}
+    .warn_list>li:last-child{color:#fc0303;}
+    .warn_list>li:last-child:before{content:"* "; color:#fc0303;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

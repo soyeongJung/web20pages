@@ -1,0 +1,45 @@
+/* faq.css */
+
+@charset "utf-8";
+
+/* design.css */
+/* #faqBox */
+   #faqBox{width:100%; height:auto; margin:0 auto; padding:0.5rem; box-sizing:border-box;}
+  .title_box{width:900px; height:auto; margin:50px auto;}
+  .faq_title{width:100%; height:30px; float:left; margin-bottom:30px;}
+
+  .faq_search_box{width:600px; height:30px; margin:0 auto; position:relative;}
+  #faq_fiel{width:100%; height: 100%;}
+  #faq_fiel>legend{width:100%; height: 100%;}
+  #searchFaq{width:100%; height: 100%;position:relative;}
+  #faqSearchBar{width:100%; height: 100%; border-bottom:3px solid #555; margin:0 auto; padding:0.5rem; box-sizing: border-box;}
+  .faqsearch_btn>i{color:#555; font-size:30px; position:absolute; right:0; top:0;}
+
+  .view{width:900px; height:auto; margin:0 auto; padding:0.5rem; box-sizing: border-box;}
+  .view>dl{width:100%; padding:0.5rem; padding:2px;}
+  .view>dl>dt{width:900px;background-color:#fff; padding:0.5rem; border-top:1px solid #ccc; box-sizing: border-box;}
+  .view>dl>dt:nth-of-type(1){border-top:3px solid #333;}
+  .view>dl>dd{width:900px; /*background-color:rgba(250,214,1,0.2);*/ padding:2rem; box-sizing: border-box;}
+  .view>dl>dt,
+  .view>dl>dd{display:none;}
+  .view>dl>dt.active{display:block;}
+  .more{width:100px; height:30px; margin:0 auto; margin-top:20px; background-color:#fad601; color:#333;}
+  .more>button{width:100%; height:100%; margin:0 auto; background-color:inherit;}
+  .more>button:hover,
+  .more>button:focus{background-color: #125bc1; color:#fff;}
+
+  .view>dl>dt>button{width:100%; height:100%; padding:0.5rem; box-sizing: border-box; text-align: left; background-color:inherit; color:inherit;}
+  .view>dl>dt>button:hover,
+  .view>dl>dt>button:focus{text-decoration: underline; color:#125bc1; font-weight: bold;}
+  .view>dl>dt>button>i{color:#125bc1;}
+  .view>dl>dd:after{content:" "; display:block; width:100%; height:auto; clear:both;}
+  .view>dl>dd>p{width:100%; height:100%;}
+  .view>dl>dd>div{float:right;}
+  .view>dl>dd>div:after{content:" "; display:block; width:100%; height:auto; clear:both;}
+  .view>dl>dd>div>button{width:110px; height:30px; background-color:inherit;}
+  .view>dl>dd>div>button>i{float:left; color:#125bc1;margin-right:10px; background-color:inherit; font-size: 1.5rem; background-color:inherit;}
+  .view>dl>dd>div>button>div{float:left; color:#125bc1; background-color:inherit;}
+  .view>dl>dd>div>button:nth-of-type(1)>div{margin-right:30px;}
+
+
+

@@ -1,0 +1,103 @@
+/* productDetail.css */
+
+@charset "utf-8";
+
+/* design.css */
+/* #productDetailBox */
+  #productDetailBox{width:100%; height:auto; margin:0 auto; padding:0.5rem; box-sizing:border-box;}
+  #productDetailBox>.list_wrap{width:960px; height:auto; margin:0 auto; margin-top:20px;margin-bottom:50px;} 
+  #productDetailBox>.list_wrap>.product_title{width:300px; height:30px; margin-top:50px; margin-bottom: 20px;}
+
+  .product_explain{width:100%; height:auto; margin-bottom:50px;}
+  #galleryBox{width:100%; height:auto; position:relative;}
+
+  .product_check{width:410px; height:410px; float:left; margin-left:20px;}
+  .product_check>li{width:100%; height:auto; margin:20px 0;}
+  .product_check>li:nth-of-type(4)>p:nth-of-type(1){width:100%; height:30px;float:left; line-height: 30px;}
+  .product_check>li:nth-of-type(4)>p:nth-of-type(2){width:200px; height:30px;float:left;}
+  .product_check>li>dl{width:100%; height:auto; list-style-type: none; margin:0; padding:0;}
+
+  .product_check>li:nth-of-type(5)>dl:hover>dd{display:block;}
+  .product_check>li:nth-of-type(5)>dl>dt{width:100%; height:30px; border-top:1px solid #ddd; background-color:#fff; padding:0.3rem 0.5rem; box-sizing: border-box;}
+  .product_check>li:nth-of-type(5)>dl>dd{width:100%; height:auto; position:absolute; display:none;}
+  .product_check>li:nth-of-type(5)>dl>dd>ul{width:100%; height:100%;}
+  .product_check>li:nth-of-type(5)>dl>dd>ul>li{width:410px; background-color:rgba(255,255,255,0.5); color:#333; padding:0.3rem 0.5rem; box-sizing: border-box;}
+  .product_check>li:nth-of-type(5)>dl>dd>ul>li:hover{background-color:#ddd;}
+
+  .product_check>li:nth-of-type(6){width:50%; height:auto; float:left;}
+  .product_check>li:nth-of-type(6)>dl>dt{width:50px; height:30px; float:left;line-height: 30px;}
+  .product_check>li:nth-of-type(6)>dl>dd{width:100px; height:30px; float:left;}
+  .product_check>li:nth-of-type(6)>dl>dd>.count_box{width:100%; height:100%; box-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,0.3);}
+  #count{width:100px; height:30px;}
+  .product_check>li:nth-of-type(7){width:50%; height:auto; float:right;}
+  .product_check>li:nth-of-type(7)>dl:hover>dd{display:block;}
+  .product_check>li:nth-of-type(7)>dl>dt{width:200px; height:30px; border-top:1px solid #ddd; background-color:#fff; padding:0.3rem 0.5rem; box-sizing: border-box;}
+  .product_check>li:nth-of-type(7)>dl>dd{width:200px; height:auto; position:absolute; display:none;}
+  .product_check>li:nth-of-type(7)>dl>dd>ul{width:100%; height:100%;}
+  .product_check>li:nth-of-type(7)>dl>dd>ul>li{background-color:rgba(255,255,255,0.5); color:#333; padding:0.3rem 0.5rem; box-sizing: border-box;}
+  .product_check>li:nth-of-type(7)>dl>dd>ul>li:hover{background-color:#ddd;}
+    .checking_btn{width:100px; height:30px;background-color:#ddd; color:#333; float:right; line-height: 30px;}
+    .cartbtn{width:46%; height:30px; float:left ;background-color:#155ec4; color:#fff; margin-right:32px;}
+    .buybtn{width:46%; height:30px; float:left ;background-color:#fad601; color:#333;}
+    .stock_check{width: 100%; height:30px; text-align:right;display:none; float:right;margin-top:20px;}
+    .show{display:block;}
+        
+
+  .prodect_tab{width:100%; height:30px;text-align:}
+  .prodect_tab>li{width:158px; height:30px; float:left; color:#333;}
+  .prodect_tab>li>button{width:100%; height:30px; background-color:transparent; font-weight: bold;}
+  .prodect_tab>li>button:focus{background-color: #fff; font-weight: bold; color:inherit;}
+  .prodect_tab>li.select{color:#155ec4; font-weight: bold; border-bottom:3px solid #155ec4;}
+  .prodectconts_tab{width:100%; height:auto; padding:1.5rem; box-sizing: border-box; background-color:#fff;}
+  .prodectconts_tab>div{width:100%; height:auto; display:none;}
+  /*.prodectconts_tab>div.select{display:block;}*/
+
+  /* .newArrivalList */
+  #productDetailBox>.remoList{width:960px; height:auto; margin:0 auto; margin-top:20px;margin-bottom:50px; position:relative; overflow: hidden;}
+  #productDetailBox #newLittleTittle{width:960px; height:50px; margin:0 auto; text-align: center; line-height: 50px; margin-top:50px;}
+  #productDetailBox .new_arrivals_tittle{width:250px; height:50px; float:left;}
+
+  #productDetailBox #newarrowBtn{width:960px; height:0; position:absolute; top:50%; margin-top:-25px; left:50%; margin-left:-480px;}
+  #productDetailBox #newarrowBtn>.newleft_arrow{width:100px; height:100px; float:left; background-color:transparent;}
+  #productDetailBox .newleft_arrow i{font-size:100px; color:#555;}
+  /*.newleft_arrow i{width:100%; height:100%; color:#555;}*/
+  #productDetailBox #newarrowBtn>.newright_arrow{width:100px; height:100px; float:right; background-color:transparent;}
+  #productDetailBox .newright_arrow i{font-size:100px; color:#555;}
+
+  #productDetailBox #newList{width:200%; height:auto;}
+
+  #productDetailBox .newList_box{width: 50%; float:left; box-sizing: border-box; 
+     outline-offset: -12px;}
+  #productDetailBox .newList_box>div{width:100%; min-width: 960px; margin: 0 auto;}
+  
+  #productDetailBox #newListFront{width:50%; min-width:960px; height:auto; margin:0 auto; padding:0 7.5% 0 7.5%; box-sizing: border-box;}
+  #productDetailBox #newListFront>dl{width:250px; height: auto; float:left; margin:50px 30px 80px 0;}
+  #productDetailBox #newListFront>dl:nth-of-type(1){margin-left:20px;}
+  #productDetailBox #newListFront>dl:nth-child(3n+1){margin-left: 0;}
+  #productDetailBox #newListFront>dl:nth-child(3n){margin-right: 0;}
+  #productDetailBox #newListFront>dl.last{margin-right:0;}
+  #productDetailBox #newListFront>dl>dt{width:100%; height:250px; background-repeat: no-repeat; background-position: center; background-size: cover;}
+  #productDetailBox #newListFront>dl:nth-of-type(1)>dt{background-image:url(../../ikea_design/image/product/product_list/list_10.jpg);}
+  #productDetailBox #newListFront>dl:nth-of-type(2)>dt{background-image:url(../../ikea_design/image/product/product_list/list_11.jpg);}
+  #productDetailBox #newListFront>dl:nth-of-type(3)>dt{background-image:url(../../ikea_design/image/product/product_list/list_12.jpg);}
+  #productDetailBox #newListFront>dl>dd{width:100%; height:60px; background-color:#fff; float:left; margin-top:20px;}
+  #productDetailBox #newListFront>dl>dd>a{display:block; width:100%; height:100%;}
+  #productDetailBox #newListFront>dl>dd>a>p:nth-of-type(1){color:#333; font-size:16px;}
+  #productDetailBox #newListFront>dl>dd>a>p:nth-of-type(2){color:#333; font-size:16px; margin-top:10px;}
+  #productDetailBox #newListFront>dl>dd>a>p:nth-of-type(3){color:#333; font-size:20px; font-weight: bold; margin-top:10px;}
+
+  #productDetailBox #newListBack{width:50%; min-width:960px; height:auto; margin:0 auto; padding:0 7.5% 0 7.5%; box-sizing: border-box;}
+  #productDetailBox #newListBack>dl{width:250px; height: auto; float:left; margin:50px 30px 80px 0;}
+  #productDetailBox #newListBack>dl:nth-of-type(1){margin-left:20px;}
+  #productDetailBox #newListBack>dl:nth-child(3n+1){margin-left: 0;}
+  #productDetailBox #newListBack>dl:nth-child(3n){margin-right: 0;}
+  #productDetailBox #newListBack>dl.last{margin-right:0;}
+  #productDetailBox #newListBack>dl>dt{width:100%; height:250px; background-repeat: no-repeat; background-position: center; background-size: cover;}
+  #productDetailBox #newListBack>dl:nth-of-type(1)>dt{background-image:url(../../ikea_design/image/product/product_list/list_13.jpg);}
+  #productDetailBox #newListBack>dl:nth-of-type(2)>dt{background-image:url(../../ikea_design/image/product/product_list/list_14.jpg);}
+  #productDetailBox #newListBack>dl:nth-of-type(3)>dt{background-image:url(../../ikea_design/image/product/product_list/list_15.jpg);}
+  #productDetailBox #newListBack>dl>dd{width:100%; height:auto; background-color:#fff; float:left; margin-top:20px;}
+  #productDetailBox #newListBack>dl>dd>a{display:block; width:100%; height:100%;}
+  #productDetailBox #newListBack>dl>dd>a>p:nth-of-type(1){color:#333; font-size:16px;}
+  #productDetailBox #newListBack>dl>dd>a>p:nth-of-type(2){color:#333; font-size:16px; margin-top:10px;}
+  #productDetailBox #newListBack>dl>dd>a>p:nth-of-type(3){color:#333; font-size:20px; font-weight: bold; margin-top:10px;}

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<!-- order.html -->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- font import======================================= -->
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);"> -->
+    <link rel="stylesheet" href="../../font/transfonterNanum/stylesheet.css">
+    <link rel="stylesheet" href="../../fontAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../fontawesome_new/css/fontawesome-all.min.css">
+    <!-- 서체를 불러와서 맨위로 보내야된다. -->
+    <!-- css basic ======================================== -->
+    <link rel="stylesheet" href="../../css/base/reset.css">
+    <link rel="stylesheet" href="../../css/base/common.css">
+    <!-- design ============================================ -->
+    <link rel="stylesheet" href="../../css/src/import.css">
+    <link rel="stylesheet" href="../../css/src/order.css">
+    <!-- favicon ============================================= -->
+    <!-- <link rel="alle-tioch-icon" href="../favicon,png">
+    <link rel="shortcut icon" href="../fasicon.png"  type="image/x-icon"> -->
+
+  <title>IKEA</title>
+</head>
+<body>
+  <!-- #wrap -->
+  <div id="wrap">
+    <!-- #orderBox -->
+    <article id="orderBox">
+      <div id="orderAll" class="clearfix">
+        <div id="titleBox" class="clearfix">
+          <h2 id="orderTitle">주문서작성 | 결제</h2>
+          <ul class="cart_order">
+            <li class="cart_1st">장바구니</li>
+            <li class="order_2nd">주문서작성|결제</li>
+            <li class="order_3rd last">주문완료</li>
+          </ul>
+          <div class="title_line"></div>
+        </div>
+        <div id="orderList" class="clearfix">
+          <div class="order_item">1. 주문하는 상품</div>
+          <dl class="order_lists">
+            <dt class="order_title">
+              <ul class="order_titleul clearfix">
+                <li class="item_box">상품</li>
+                <li class="order_count">수량</li>
+                <li class="order_price">주문금액</li>
+                <li class="ikea_service">서비스</li>
+              </ul>
+            </dt>
+            <dd class="order_conts">
+              <ul class="order_listul clearfix">
+                <li class="order_item_listbox">
+                  <div class="order_item_image"></div>
+                  <div class="order_itemp">
+                    <p class="order_item_name">상품명 lorem</p>
+                    <p class="order_item_option">선택옵션 lorem</p>
+                    <p class="order_item_service">서비스 조립신청</p>
+                  </div>
+                </li>
+                <li class="order_counts">
+                  <fieldset>
+                    <legend class="hidden">구매를 원하는 갯수 만큼 수량</legend>
+                    <label for="countBox"><span class="hidden">구매를 원하는 갯수 만큼 수량을 적으세요.</span></label>
+                    <input type="number" id="countBox" name="countBox" value="" min="1" max="10" step="1" />
+                  </fieldset>
+                </li>
+                <li class="order_allprice">###,###</li>
+                <li class="order_sevice">조립신청</li>
+              </ul>
+            </dd>
+          </dl>
+          <div class="total_price">TOTAL : ###,###</div>
+        </div>
+        <div class="order_inputinfo clearfix">
+          <div class="delivery_info">2. 주문고객 | 배송지 정보</div>
+          <div class="agreement_box">
+            <p class="agree_title">비회원 개인정보를 위한 이용자 동의서</p>
+            <p class="agreeornot_box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos reiciendis, fuga aspernatur exercitationem tempora corrupti, eos deserunt repellat aut dolores laboriosam quo voluptatibus dolorum repudiandae cupiditate consequatur illo, ad accusamus.
+            </p>
+            <div class="yesorno_box">
+              <fieldset>
+                <legend class="hidden">주문 및 배송 동의서</legend>
+                <input type="radio" name="agreement" value="agree" id="agreeBox">
+                <label for="agreeBox">동의</label>
+                <input type="radio" name="agreement" value="disagree" id="disagreeBox">
+                <label for="disagreeBox">동의안함</label>
+              </fieldset>
+            </div>
+          </div>
+          <ul class="sending_people">
+            <li class="send_name">
+              <dl>
+                <dt class="name_box">이름</dt>
+                <dd class="put_box">
+                  <input type="text"  id="nameBox" name="nameBox" value=""  size="30" />
+                  <label for="nameBox" class="hidden">아이디어를 입력하세요</label>
+                </dd>
+              </dl>
+            </li>
+            <li class="call_num">
+              <dl>
+                <dt class="callnum_box">연락처</dt>
+                <dd>
+                   <input type="tel" id="telBox" name="telBox" value="" required />
+                </dd>
+                <dd class="vertical_line">-</dd>
+                <dd>
+                   <input type="tel" id="telBox" name="telBox" value="" required />
+                </dd>
+                <dd class="vertical_line">-</dd>
+                <dd>
+                   <input type="tel" id="telBox" name="telBox" value="" required />
+                </dd>
+              </dl>
+            </li>
+            <li class="email_add">
+              <dl>
+                <dt class="email_box">E-mail</dt>
+                <dd>
+                  <input type="email" id="emailBox" name="emailBox" value="" required />
+                </dd>
+                <dd class="at_mark">@</dd>
+                <dd>
+                  <input type="email" id="emailBox" name="emailBox" value="" required />
+                </dd>
+              </dl>
+            </li>
+          </ul>
+          <div class="clearfix">
+            <button type="button" class="ordersame_btn">주문자와 동일 적용</button>
+          </div>
+          <ul class="receive_people">
+            <li class="recive_name">
+              <dl>
+                <dt class="reciname_box">받으실분</dt>
+                <dd>
+                  <input type="text"  id="nameBox" name="nameBox" value=""  size="30" />
+                  <label for="nameBox" class="hidden">아이디어를 입력하세요</label>
+                </dd>
+              </dl>
+            </li>
+            <li class="phone_num">
+              <dl>
+                <dt>연락처</dt>
+                <dd>
+                  <input type="tel" id="telBox" name="telBox" value="" required />
+                </dd>
+                <dd class="vertical_line">-</dd>
+                <dd>
+                  <input type="tel" id="telBox" name="telBox" value="" required />
+                </dd>
+                <dd class="vertical_line">-</dd>
+                <dd>
+                  <input type="tel" id="telBox" name="telBox" value="" required />
+                </dd>
+              </dl>
+            </li>
+            <li class="address_put">
+              <dl>
+                <dt>주소</dt>
+                <dd>
+                  <input type="text"  id="addressBox" name="addressBox" value=""  size="30" />
+                </dd>
+                <dd class="addsearch_btn">
+                  <button type="button">검색</button>
+                  <!-- <div class="add_alot">
+                    <ul>
+                      <li>
+                        <div></div>
+                        <div>지번</div>
+                      </li>
+                      <li>
+                        <div></div>
+                        <div>도로명</div>
+                      </li>
+                    </ul>
+                    <div></div>
+                    <div class="addsearch_btn"><button type="button">검색</button>
+                  </div> -->
+                </dd>
+                <dd>
+                  <input type="text"  id="addressBox" name="addressBox" value="" placeholder="나머지 주소 입력" size="30" />
+                </dd>
+              </dl>
+            </li>
+            <li class="deliv_message">
+              <dl>
+                <dt>배송메세지</dt>
+                <dd>
+                  <fieldset>
+                    <legend class="hidden"></legend>
+                    <label for="multiText" class="hidden">배송 시 배달원에게 전 할 메세지를 쓰에요.</label>
+                    <textarea name="" id="multiText" cols="30" row="10" wrap="soft" />
+                    </textarea> <br />
+                  </fieldset>
+                </dd>
+              </dl>
+            </li>
+          </ul>
+        </div>
+        <div class="payment_box clearfix">
+          <div class="payment">3. 결제수단</div>
+          <div class="payway_box">
+            <fieldset>
+              <legend class="hidden">주문 및 배송 동의서</legend>
+              <input type="radio" name="payment" value="account" id="accountBox">
+              <label for="accountBox">실시간 계좌이체</label>
+              <input type="radio" name="payment" value="card" id="cardBox">
+              <label for="cardBox">신용카드</label>
+              <input type="radio" name="payment" value="phone" id="phoneBox">
+              <label for="phoneBox">휴대폰결제</label>
+            </fieldset>
+            <dl>
+              <dt>결제수단 : </dt>
+              <dd></dd>
+            </dl>
+          </div>
+        <div id="pay_btn">
+          <button type="button">결제하기</button>
+        </div>
+        </div>
+      </div>
+    </article><!-- // #orderBox -->
+  </div>  
+  <!-- #wrap -->
+  
+  <!-- script -->
+  <script src="../../js/base/jquery-3.2.1.js"></script>
+  <script src="../../js/base/jquery-ui.js"></script>
+   <!-- import script -->
+  <script src="../../js/src/import.js"></script>
+   <!-- use script -->
+  <!-- <script src="../../js/src/order.js"></script> -->
+  <!-- // script -->
+
+</body>
+</html>

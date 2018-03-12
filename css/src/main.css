@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+/* design.css */
+
+/* #bannerBox */
+  #bannerBox{width:100%; height:auto; min-height:300px; margin: 0 auto; position:relative;}
+  #bannerBoxDiv{width:100%; height:510px;}
+  #adbannerBox{width:100%; height:450px; background-color:#aaa; margin-top:30px;}
+  #adbannerBox>li{width:20%; height:100%; float:left; text-align: center; line-height:450px; font-size:3rem; background-repeat: no-repeat;}
+  #adbannerBox>.inbanner_01{background-image:url(../../ikea_design/image/banner/banner_01.jpg); background-size:cover;}
+  #adbannerBox>.inbanner_02{background-image:url(../../ikea_design/image/banner/banner_02.jpg); background-size:100%; background-position:center;}
+  #adbannerBox>.inbanner_03{background-image:url(../../ikea_design/image/banner/banner_03.jpg); background-size:100%; background-position:center;}
+  #adbannerBox>.inbanner_04{background-image:url(../../ikea_design/image/banner/banner_04.jpg); background-size:cover; background-position:bottom;}
+  #adbannerBox>.inbanner_05{background-image:url(../../ikea_design/image/banner/banner_06.jpg); background-size:cover;}
+
+ #indicatorBox{width:310px; height:30px; margin:0 auto; position:absolute; left:50%; margin-left:-135px; top:50%; margin-top:170px; }
+ #indicatorBox>li{width:30px; height:30px; margin-right:30px;background-color:#ccc; float:left;border-radius: 50px;}
+ #indicatorBox>li:hover,
+ #indicatorBox>li:focus,
+ #indicatorBox>li.focus{width:50px; height:30px; border-radius: 50px; background-color:#555; transition: all 300ms ease;}
+ #indicatorBox>li>button{width:100%; height:100%; border-radius: 50%; background-color:inherit;}
+
+ #arrowBtn{width:100%; height:0; background-color:#fff; position:absolute; top:0; margin-top:30px; }
+  #arrowBtn>.left_arrow{width:50px;height:450px; float:left; background-color:transparent;}
+  #arrowBtn>.left_arrow:hover{background-color:rgba(25,25,25,0.4);}
+  #arrowBtn i{display:block; width:100%; height:100%; font-size:100px; color:#333; font-weight: bold; line-height: 450px}
+  #arrowBtn i:hover{display:block; width:100%; height:100%; font-size:100px; color:#fff; font-weight: bold;}
+  #arrowBtn>.right_arrow{width:50px;height:450px; float:right;background-color:transparent;}
+  #arrowBtn>.right_arrow:hover{background-color:rgba(25,25,25,0.4);}
+
+  /* #newarriveBox */
+  #newarriveBox{width:100%; height:456px; min-height:300px; margin:0 auto; padding:0.5rem; box-sizing:border-box; position: relative;}
+  #newLittleTittle{width:960px; height:50px; margin:0 auto; text-align: center; line-height: 50px; margin-top:50px;}
+  .new_arrivals_tittle{width:250px; height:50px; float:left;}
+
+ #newarrowBtn{width:960px; height:0; position:absolute; top:50%; margin-top:-25px; left:50%; margin-left:-480px;}
+  #newarrowBtn>.newleft_arrow{width:100px; height:100px; float:left; background-color:transparent;}
+  .newleft_arrow i{font-size:100px; color:#555;}
+  /*.newleft_arrow i{width:100%; height:100%; color:#555;}*/
+  #newarrowBtn>.newright_arrow{width:100px; height:100px; float:right; background-color:transparent;}
+  .newright_arrow i{font-size:100px; color:#555;}
+
+  #newList{width:200%; height:auto;}
+
+  .newList_box{width: 50%; float:left; box-sizing: border-box; 
+     outline-offset: -12px;}
+  .newList_box>div{width:100%; min-width: 960px; margin: 0 auto;}
+  
+  #newListFront{width:50%; min-width:960px; height:auto; margin:0 auto; padding:0 7.5% 0 7.5%; box-sizing: border-box;}
+  #newListFront>dl{width:140px; height: auto; float:left; margin:50px 8% 80px 0;}
+  /*#newListFront>dl:nth-of-type(1){margin-left:20px;}*/
+  #newListFront>dl.last{margin-right:0;}
+  #newListFront>dl>dt{width:100%; height:120px; background-repeat: no-repeat; background-size: contain; background-position: center;}
+  #newListFront>dl:nth-of-type(1)>dt{background-image:url(../../ikea_design/image/product/product_list/list_05.jpg);}
+  #newListFront>dl:nth-of-type(2)>dt{background-image:url(../../ikea_design/image/product/product_list/list_06.jpg);}
+  #newListFront>dl:nth-of-type(3)>dt{background-image:url(../../ikea_design/image/product/product_list/list_07.jpg);}
+  #newListFront>dl:nth-of-type(4)>dt{background-image:url(../../ikea_design/image/product/product_list/list_08.jpg);}
+  #newListFront>dl>dd{width:100%; height:60px; background-color:#fff; float:left; margin-top:20px;}
+  #newListFront>dl>dd>a{display:block; width:100%; height:100%;}
+  #newListFront>dl>dd>a>p:nth-of-type(1){color:#333; font-size:16px;}
+  #newListFront>dl>dd>a>p:nth-of-type(2){color:#333; font-size:16px; margin-top:10px;}
+  #newListFront>dl>dd>a>p:nth-of-type(3){color:#333; font-size:20px; font-weight: bold; margin-top:10px;}
+
+  #newListBack{width:50%; min-width:960px; height:auto; margin:0 auto; padding:0 7.5% 0 7.5%; box-sizing: border-box;}
+  #newListBack>dl{width:140px; height: auto; float:left; margin:50px 8% 80px 0;}
+  /*#newListBack>dl:nth-of-type(1){margin-left:20px;}*/
+  #newListBack>dl.last{margin-right:0;}
+  #newListBack>dl>dt{width:100%; height:120px; background-repeat: no-repeat; background-size: contain; background-position: center;}
+  #newListBack>dl:nth-of-type(1)>dt{background-image:url(../../ikea_design/image/product/product_list/list_01.jpg);}
+  #newListBack>dl:nth-of-type(2)>dt{background-image:url(../../ikea_design/image/product/product_list/list_02.jpg);}
+  #newListBack>dl:nth-of-type(3)>dt{background-image:url(../../ikea_design/image/product/product_list/list_03.jpg);}
+  #newListBack>dl:nth-of-type(4)>dt{background-image:url(../../ikea_design/image/product/product_list/list_04.jpg);}
+  #newListBack>dl>dd{width:100%; height:auto; background-color:#fff; float:left; margin-top:20px;}
+  #newListBack>dl>dd>a{display:block; width:100%; height:100%;}
+  #newListBack>dl>dd>a>p:nth-of-type(1){color:#333; font-size:16px;}
+  #newListBack>dl>dd>a>p:nth-of-type(2){color:#333; font-size:16px; margin-top:10px;}
+  #newListBack>dl>dd>a>p:nth-of-type(3){color:#333; font-size:20px; font-weight: bold; margin-top:10px;}
+
+  /* #bestitemBox */
+  #bestitemBox{width:100%; height:456px; min-height:300px; margin:0 auto; padding:0.5rem; box-sizing:border-box; position: relative;}
+  #bestLittleTittle{width:960px; height:50px; margin:0 auto; text-align: center; line-height: 50px; margin-top:50px;}
+  .best_arrivals_tittle{width:250px; height:50px; float:left;}
+
+  #bestarrowBtn{width:960px; height:0; position:absolute; top:50%; margin-top:-25px; left:50%; margin-left:-480px;}
+  #bestarrowBtn>.bestleft_arrow{width:100px; height:100px; float:left; background-color:transparent;}
+  .bestleft_arrow i{font-size:100px; color:#555;}
+  #bestarrowBtn>.bestright_arrow{width:100px; height:100px; float:right; background-color:transparent;}
+  .bestright_arrow i{font-size:100px; color:#555;}
+
+  #bestList{width:200%; height:auto;}
+
+  .bestList_box{width: 50%; float:left; box-sizing: border-box; 
+     outline-offset: -12px;}
+  .bestList_box>div{width:100%; min-width: 960px; margin: 0 auto;}
+
+  #bestListFront{width:50%; min-width:960px; height:auto; margin:0 auto; padding:0 7.5% 0 7.5%; box-sizing: border-box;}
+  #bestListFront>dl{width:140px; height: auto; float:left; margin:50px 8% 80px 0;}
+  /*#bestListFront>dl:nth-of-type(1){margin-left:20px;}*/
+  #bestListFront>dl.last{margin-right:0;}
+  #bestListFront>dl>dt{width:100%; height:120px; background-repeat: no-repeat; background-size: contain; background-position: center;}
+  #bestListFront>dl:nth-of-type(1)>dt{background-image:url(../../ikea_design/image/product/product_list/list_14.jpg);}
+  #bestListFront>dl:nth-of-type(2)>dt{background-image:url(../../ikea_design/image/product/product_list/list_15.jpg);}
+  #bestListFront>dl:nth-of-type(3)>dt{background-image:url(../../ikea_design/image/product/product_list/list_16.jpg);}
+  #bestListFront>dl:nth-of-type(4)>dt{background-image:url(../../ikea_design/image/product/product_list/list_17.jpg);}
+  #bestListFront>dl>dd{width:100%; height:60px; background-color:#fff; float:left; margin-top:20px;}
+  #bestListFront>dl>dd>a{display:block; width:100%; height:100%;}
+  #bestListFront>dl>dd>a>p:nth-of-type(1){color:#333; font-size:16px;}
+  #bestListFront>dl>dd>a>p:nth-of-type(2){color:#333; font-size:16px; margin-top:10px;}
+  #bestListFront>dl>dd>a>p:nth-of-type(3){color:#333; font-size:20px; font-weight: bold; margin-top:10px;}
+
+  #bestListBack{width:50%; min-width:960px; height:auto; margin:0 auto; padding:0 7.5% 0 7.5%; box-sizing: border-box;}
+  #bestListBack>dl{width:140px; height: auto; float:left; margin:50px 8% 80px 0;}
+  /*#bestListBack>dl:nth-of-type(1){margin-left:20px;}*/
+  #bestListBack>dl.last{margin-right:0;}
+  #bestListBack>dl>dt{width:100%; height:120px; background-repeat: no-repeat; background-size: contain; background-position: center;}
+  #bestListBack>dl:nth-of-type(1)>dt{background-image:url(../../ikea_design/image/product/product_list/list_09.jpg);}
+  #bestListBack>dl:nth-of-type(2)>dt{background-image:url(../../ikea_design/image/product/product_list/list_10.jpg);}
+  #bestListBack>dl:nth-of-type(3)>dt{background-image:url(../../ikea_design/image/product/product_list/list_11.jpg);}
+  #bestListBack>dl:nth-of-type(4)>dt{background-image:url(../../ikea_design/image/product/product_list/list_12.jpg);}
+  #bestListBack>dl>dd{width:100%; height:60px; background-color:#fff; float:left; margin-top:20px;}
+  #bestListBack>dl>dd>a{display:block; width:100%; height:100%;}
+  #bestListBack>dl>dd>a>p:nth-of-type(1){color:#333; font-size:16px;}
+  #bestListBack>dl>dd>a>p:nth-of-type(2){color:#333; font-size:16px; margin-top:10px;}
+  #bestListBack>dl>dd>a>p:nth-of-type(3){color:#333; font-size:20px; font-weight: bold; margin-top:10px;}
+
+  /* #ikeaserviceBox */
+  #ikeaserviceBox{width:100%; height:auto; min-height:300px;padding:0.5rem; box-sizing:border-box;}
+  #ikeaserviceboxDIV{width:960px; height:auto; margin:0 auto;}
+
+  #housePlanner{width:460px; height:auto; float:left; margin:50px 10px; }
+  #housePlanner>.housePlanner_tittle{width:400px; height:50px;float:left; margin-bottom: 10px;}
+  #housePlanner>.home_planning{width:460px; height:420px;background-color:#daa; background-image:url(../../ikea_design/image/homeIdea/list_img/list_07.jpg); background-repeat: no-repeat; background-size:cover; position:left; float:left;}
+  #housePlanner>.home_planning>a{width:100%; height:100%;}
+
+  #ikeaSevice{width:460px; height:auto; margin:50px 10px; float:left;}
+  #ikeaSevice>.ikeaSevice_tittle{width:400px; height:50px; float:left; margin-bottom: 10px;}
+  #ikeaSevice>.ikeasevice_list{width:460px; height:460px;float:left;}
+  .assemble_service{width:220px; height:200px; margin-right:20px; background-color:#155ec4; float:left; text-align: center; line-height: 200px; font-size:18px; color:#fff;}
+  .assemble_service>a{display:block; width:100%; height:100%; color:inherit;}
+  .install_service{width:220px; height:200px; background-color:#fad601; float:left; text-align: center; line-height: 200px; font-size:18px; color:#333;}
+  .install_service>a{display:block; width:100%; height:100%; color:inherit;}
+  .delivery_service{width:460px; height:200px; background-color:#025e9d;float:left; margin-top:20px;text-align: center; line-height: 200px; font-size:18px; color:#fff;}
+  .delivery_service>a{display:block; width:100%; height:100%; color:inherit;}
+
+  /* #mapBox */
+  #mapBox{width:100%; height:auto; min-height:300px; margin:0 auto;padding:0.5rem; box-sizing:border-box;}
+  #mapBoxDIV{width:960px; height:auto; margin:0 auto;}
+
+  #mapBoxWrap{width:100%; height:auto; float:left; margin:50px 10px;}
+  .map_select_box{width:100%; height:auto; float:right; margin-bottom:30px;}
+  
+  .mapbox_tittle{width:300px; height:50px;float:left; margin-bottom: 10px; float:left; background-color:#fff;}
+  
+  .map_select_box>form{width:140px; height:30px; float:right; margin-left:10px;}
+  /*.map_select_box>form>fieldset{border:1px solid #333;}*/
+  .map_select_box>form>fieldset>legend{width:100%; background-color:transparent;}
+  /*#mapSelectbox{border:1px solid #333; box-sizing: border-box; border-radius:0.2rem;}*/
+  #mapSelect{width:140px; height:30px; background-color: #fff; text-indent:1rem; font-size: 16px; color:#333; border:1px solid #333;}
+  #mapSelect>optgroup{background-color: #fff;}
+  #mapSelect>optgroup>option{background-color: #fff;}
+
+  .map_pic{width:700px; height:330px; background-color:#dea; float:left; background-image:url(../../ikea_design/image/map/map_gwang.png); background-repeat: no-repeat; background-size: 100%; background-position: center;}
+
+  .map_addressbox{width: 190px; height: 330px; float:right; margin-right:10px; padding:9rem 0.5rem; box-sizing: border-box;}
+  .map_addressbox>.address_01{text-align: center; }
+  .map_addressbox>.address_02{text-align: center; display:none; }
+
+  .map_more_btn{width:100%; height:40px;}
+  .map_more_btn>a{width:150px; height:100%; background-color:#F06428; color:#fff; font-weight: bold; float:right; margin-right:50px; text-align: center; line-height: 40px;}
+  .map_more_btn>a:hover{text-decoration: underline;}
+
+
+  

@@ -1,0 +1,26 @@
+/* news.css */
+
+@charset "utf-8";
+
+/* design.css */
+/* #newsBox */
+  #newsBox{width:100%; height:auto; margin:0 auto; padding:0.5rem; box-sizing:border-box;}
+  #newsBox>.list_wrap{width:960px; height:auto; margin:0 auto; margin-top:20px;margin-bottom:90px;} 
+  #newsBox>.list_wrap>.news_title{width:100%; height:30px; margin-top:60px; margin-bottom: 60px;}
+  #newsBox>.list_wrap>ul{width:880px; height:auto;}
+  #newsBox>.list_wrap>ul>li{width:100%; height:240px; margin-bottom:90px; float:left;}
+  #newsBox>.list_wrap>ul>li>a{width:100%; height:100%;}
+  #newsBox>.list_wrap>ul>li>a:focus,
+  #newsBox>.list_wrap>ul>li>a:hover{color:#333; text-decoration: underline;}
+  #newsBox>.list_wrap>ul>li:last-child{margin-bottom:0;}
+  #newsBox>.list_wrap>ul>li>a>div{width:240px; height:100%; float:left; margin-right:20px; background-repeat: no-repeat; background-position: center; background-size: cover;}
+  #newsBox>.list_wrap>ul>li>a>h3{color:#333; font-weight: bold; font-size: 20pt;}
+  #newsBox>.list_wrap>ul>li>a>p{width:620px; height:100%; float:left; padding:0.5rem; box-sizing: border-box; overflow: hidden; margin-top:30px; line-height: 160%;}
+  #newsBox>.list_wrap>ul>li>a>.news_img_1{background-image:url(../../ikea_design/image/news/img_01.jpg);}
+  #newsBox>.list_wrap>ul>li>a>.news_img_2{background-image:url(../../ikea_design/image/news/img_02.jpg); background-position: left}
+  #newsBox>.list_wrap>ul>li>a>.news_img_3{background-image:url(../../ikea_design/image/news/img_03.jpg); background-position: left;}
+  #newsBox>.list_wrap>ul>li>a>.news_img_4{background-image:url(../../ikea_design/image/news/img_04.jpg);}
+ /* #newsBox>.list_wrap>ul>li>.news_aticle_1{width:450px; height:auto; float:left; padding:0.5rem; box-sizing: border-box;}
+  #newsBox>.list_wrap>ul>li>.news_aticle_2{width:450px; height:auto; float:left; padding:0.5rem; box-sizing: border-box;}
+  #newsBox>.list_wrap>ul>li>.news_aticle_3{width:450px; height:auto; float:left; padding:0.5rem; box-sizing: border-box;}
+  #newsBox>.list_wrap>ul>li>.news_aticle_4{width:450px; height:auto; float:left; padding:0.5rem; box-sizing: border-box;}*/

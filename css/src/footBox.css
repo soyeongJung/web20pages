@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/* design.css */
+
+/* #footBox */
+  #footBox{width:100%; height:270px; background-color:#666; padding:0.5rem; box-sizing:border-box; padding:30px 0; box-sizing: border-box;}
+  .foot_content{width:960px; height:auto; margin:0 auto;}
+  .foot_logo{width:150px; height:60px; background-image:url(../../ikea_design/logo/footlogo.png); background-repeat: no-repeat; background-size: 100%;}
+  .foot_logo>a{width:100%; height:100%;}
+  .foot_info{width:100%; height:auto; margin-top:30px;color:#fff;}
+  .address_info{width:100%; height:auto; margin-top:30px;}
+  .address_info>div{width:300px; height:auto; color:#fff;}
+  .address_info>div:nth-of-type(1){float:left;}
+  .address_info>div:nth-of-type(2){float:left;}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- cart.html -->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- font import======================================= -->
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);"> -->
+    <link rel="stylesheet" href="../../font/transfonterNanum/stylesheet.css">
+    <link rel="stylesheet" href="../../fontAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../fontawesome_new/css/fontawesome-all.min.css">
+    <!-- 서체를 불러와서 맨위로 보내야된다. -->
+    <!-- css basic ======================================== -->
+    <link rel="stylesheet" href="../../css/base/reset.css">
+    <link rel="stylesheet" href="../../css/base/common.css">
+    <!-- design ============================================ -->
+    <link rel="stylesheet" href="../../css/src/import.css">
+    <link rel="stylesheet" href="../../css/src/cart.css">
+    <!-- favicon ============================================= -->
+    <!-- <link rel="alle-tioch-icon" href="../favicon,png">
+    <link rel="shortcut icon" href="../fasicon.png"  type="image/x-icon"> -->
+
+  <title>IKEA</title>
+</head>
+<body>
+  <!-- #wrap -->
+  <div id="wrap">
+    <!-- #cartBox -->
+    <article id="cartBox">
+      <div id="cartAll" class="clearfix">
+        <div id="titleBox" class="clearfix">
+          <h2 id="cartTitle">장바구니</h2>
+          <ul class="cart_order">
+            <li class="cart_1st">장바구니</li>
+            <li class="order_2nd">주문서작성|결제</li>
+            <li class="order_3rd last">주문완료</li>
+          </ul>
+          <div class="title_line"></div>
+        </div>
+        <div id="cartList">
+          <div class="cart_rule">
+            <p>새로운 쇼핑리스트를 생성하거나, 현 리스트를 저장하려면 로그인하거나 회원가입하세요. </p>
+            <p>로그인 하시면 장바구니에 담은 상품이 30일간 보관됩니다.</p>
+          </div>
+          <dl class="cart_lists">
+            <dt class="cart_title">
+              <ul class="cart_titleul clearfix">
+                <li class="check_box">
+                  <form action="#" method="get" class="title_check">
+                    <fieldset class="carttitle_check">
+                      <legend class="hidden">장바구니에 담은 상품 전체 선택</legend>
+                      <input id="checkAllCart" type="checkbox" name="checkAllCart" value="checked" />
+                      <label for="checkAllCart"><span class="hidden">장바구니에 담은 상품 전체 선택</span></label>
+                    </fieldset>
+                  </form>
+                </li>
+                <li class="item_box">상품</li>
+                <li class="item_price">상품금액</li>
+                <li class="item_count">수량</li>
+                <li class="delivery">배송비</li>
+                <li class="sum_price">합계금액</li>
+              </ul>
+            </dt>
+            <dd class="cart_conts">
+              <ul class="order_listul clearfix">
+                <li class="check_box">
+                  <form action="#" method="get" class="list_check">
+                    <fieldset class="cartlist_check">
+                      <legend class="hidden">장바구니에 담은 상품 부분 선택</legend>
+                      <input id="checkPartCart" type="checkbox" name="checkPartCart" value="checked" />
+                      <label for="checkPartCart"><span class="hidden">장바구니에 담은 상품 부분 선택</span></label>
+                    </fieldset>
+                  </form>
+                </li>
+                <li class="order_item_listbox">
+                  <div class="order_item_image"></div>
+                  <div class="order_itemp">
+                    <p class="order_item_name">상품명 lorem</p>
+                    <p class="order_item_option">선택옵션 lorem</p>
+                    <p class="order_item_service">서비스 조립신청</p>
+                  </div>
+                </li>
+                <li class="order_itemprice">###,###</li>
+                <li class="order_itemcounter">
+                  <fieldset>
+                    <legend class="hidden">구매를 원하는 갯수 만큼 수량</legend>
+                    <label for="countBox"><span class="hidden">구매를 원하는 갯수 만큼 수량을 적으세요.</span></label>
+                    <input type="number" id="countBox" name="countBox" value="" min="1" max="10" step="1" />
+                  </fieldset>
+                </li>
+                <li class="order_delivery">#,###/무료</li>
+                <li class="order_sumprice">###,###</li>
+              </ul>
+            </dd>
+          <div class="cart_btns">
+            <a href="../src/productDetail.html" class="continu_shop">쇼핑계속</a>
+            <a href="../src/order.html" class="no_member">비회원주문</a>
+            <a href="../src/order.html" class="member">회원주문</a>
+          </div>
+        </div>
+      </div>
+    </article><!-- // #cartBox -->
+  </div>  
+  <!-- #wrap -->
+  
+  <!-- script -->
+  <script src="../../js/base/jquery-3.2.1.js"></script>
+  <script src="../../js/base/jquery-ui.js"></script>
+   <!-- import script -->
+  <script src="../../js/src/import.js"></script>
+   <!-- use script -->
+  <script src="../../js/src/cart.js"></script>
+  <!-- // script -->
+
+</body>
+</html>

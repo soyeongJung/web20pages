@@ -1,0 +1,104 @@
+/* order.css */
+
+@charset "utf-8";
+
+/* design.css */
+/* #orderBox */
+  #orderBox{width:100%; height:auto; margin:0 auto; padding:0.5rem; box-sizing:border-box;}
+  #orderAll{width:960px; height:auto; margin:50px auto;}
+  #titleBox{width:960px; height:auto; margin:0 auto;padding:0.5rem; box-sizing:border-box; margin-top:30px;}
+  #orderTitle{width:300px; height:auto; float:left;}
+  #titleBox>.cart_order{width: 380px;height: auto; float:right;}
+  #titleBox>.cart_order>li{width:120px; height:auto;margin-right:5px; float:left; text-align: center;}
+  .order_2nd{font-weight: bold;}
+  #titleBox>.title_line{width:930px; height:60px; border-bottom: 3px solid #333; margin-bottom: 2rem; margin-top:40px;}
+
+  #orderList{width:900px; height: auto;margin:0 auto;}
+  #orderList>.order_item{width:300px; height:30px;}
+  #orderList>.order_lists{width:900px; height:auto; margin:0 auto;}
+    .order_lists>.order_title{width:100%; height:auto;}
+    .order_lists>.order_title>.order_titleul{width:100%; height:auto; border-top:3px solid #333; border-bottom: 1px solid #333; padding:0.5rem; box-sizing: border-box;}
+      .order_titleul>.item_box{width:70px; height:30px; float:left; line-height: 30px; margin-left:180px; margin-right:200px;}
+      .order_titleul>.order_count{width:70px; height:30px; float:left;line-height: 30px;margin-right:100px;}
+      .order_titleul>.order_price{width:70px; height:30px; float:left;line-height: 30px;margin-right:100px;}
+      .order_titleul>.ikea_service{width:70px; height:30px; float:right;line-height: 30px;}
+
+    .order_lists>.order_conts{width:100%; height:auto;}
+      .order_conts>.order_listul{width:900px;border-bottom: 3px solid #333; padding:1rem; box-sizing: border-box;}
+        .order_item_listbox{width:430px; height:auto; float:left;}
+          .order_item_listbox>.order_item_image{width:140px; height:120px; background-image:url(../../ikea_design/image/product/product_list/list_05.jpg); background-position: center; background-repeat: no-repeat; background-size: contain; margin-right:30px; float:left;}
+          .order_item_listbox>.order_itemp{width:260px; float:left; height:auto; padding-top:20px; box-sizing: border-box;}
+            .order_itemp>.order_item_name{width:100%; height:auto; margin-bottom: 10px;}
+            .order_itemp>.order_item_option{width:100%; height:auto;margin-bottom: 10px;}
+            .order_itemp>.order_item_service{width:100%; height:auto;}
+        .order_listul>.order_counts{width:70px; height:30px;float:left; margin-left:10px;}
+        #countBox{width:40px; height:30px;/* border:1px solid #155ec4; */padding-left:0.25rem; box-sizing: border-box; box-shadow: 1px 1px 1px #999}
+        .order_listul>.order_allprice{width:70px; height:30px;float:left;margin-left:100px;}
+        .order_listul>.order_sevice{width:70px; height:30px;float:right;}
+
+    .total_price{width:150px; height:60px; margin:50px 0; color:#c55;float:right; text-align: center;}
+
+    .order_inputinfo{width:900px; height: auto;margin:0 auto;}
+      .delivery_info{width:300px; height:30px;}
+      .agreement_box{width:100%; height:auto; margin:0 auto;}
+      .agreement_box>.agree_title{width:400px; height:30px;}
+      .agreement_box>.agreeornot_box{width:900px; height:200px; background-color:#fff; margin-bottom:20px; border:1px solid #333; padding:1rem; box-sizing: border-box;}
+      .agreement_box>.yesorno_box{width:360px;height:30px;margin:0 auto; margin-bottom: 30px;}
+        #agreeBox{margin-right:10px;}
+        label[for="agreeBox"]{margin-right:200px;}
+        #disagreeBox{margin-right:10px}
+    .order_inputinfo>.sending_people{width:800px; height:auto; margin:0 auto;margin-bottom: 1rem;}
+      .sending_people dl>dt{width:80px; height:30px; line-height:30px; float:left; margin-right:10px;}
+      .sending_people>.send_name{width: 800px;height:30px;}
+        .send_name>dl{width:100%; height:auto;}
+        .send_name>dl>dd{width:100px; height:30px; float: left;}
+        #nameBox{width:100%; height:100%; border-bottom:1px solid #333; padding:0.5rem; box-sizing: border-box;}
+
+      .sending_people>.call_num{width: 800px;height:30px; margin-top:10px;}
+        .call_num>dl{width:100%; height:auto;}
+        .call_num>dl>dd{width:100px; height:30px; float: left; margin-right:10px;}
+        #telBox{width:100%; height:100%; border-bottom:1px solid #333; padding:0.5rem; box-sizing: border-box;}
+        .call_num>dl>.vertical_line{width:10px; height:30px; line-height: 30px; background-color:transparent; }
+
+      .sending_people>.email_add{width: 800px;height:30px; margin-top:10px;}
+        .email_add>dl{width:100%; height:auto;}
+        .email_add>dl>dd{width:100px; height:30px; float: left; margin-right:10px;}
+        #emailBox{width:100%; height:100%; border-bottom:1px solid #333; padding:0.5rem; box-sizing: border-box;}
+        .email_add>dl>.at_mark{width:10px; height:30px; line-height: 30px; background-color:transparent; }
+      .ordersame_btn{width:150px; height:30px; float:right;}
+    .order_inputinfo>.receive_people{width:800px; height:auto; margin:0 auto;margin-top: 1rem;}
+    .receive_people dl>dt{width:80px; height:30px; line-height:30px; float:left; margin-right:10px;}
+      .receive_people>.recive_name{width: 800px;height:30px;}
+        .recive_name>dl{width:100%; height:auto;}
+        .recive_name>dl>dd{width:100px; height:30px; background-color:#fff; float: left;}
+      .receive_people>.phone_num{width: 800px;height:30px;margin-top:10px;}
+        .phone_num>dl{width:100%; height:auto;}
+        .phone_num>dl>dd{width:100px; height:30px; background-color:#fff; float: left; margin-right:10px;}
+        .phone_num>dl>.vertical_line{width:10px; height:30px; line-height: 30px; background-color:transparent; }
+      .receive_people>.address_put{width: 800px;height:30px;margin-top:10px;}
+        .address_put>dl{width:100%; height:auto;}
+        .address_put>dl>dd{width:300px; height:30px; background-color:#fff; float: left; margin-right:10px;}
+        .address_put>dl>.addsearch_btn{width:60px; height:30px;background-color:transparent;}
+          .addsearch_btn>button{width:60px; height:30px;}
+          #addressBox{width:100%; height:100%; border-bottom:1px solid #333; padding:0.5rem; box-sizing: border-box;}
+      .receive_people>.deliv_message{width: 800px;height:30px;margin-top:10px; margin-bottom: 50px}
+        .deliv_message>dl{width:100%; height:auto;}
+        .deliv_message>dl>dd{width:300px; height:30px; float: left;}
+        .deliv_message>dl>dd>fieldset{width:100%; height:100%;}
+        #multiText{width:100%; height:100%; border:1px solid #333; padding:0.5rem; box-sizing: border-box;}
+
+    .payment_box{width:900px; height: auto;margin:0 auto; padding:2rem 0; }
+    .payment_box>.payment{width:300px; height:30px;}
+    .payment_box>.payway_box{width: 800px;height:30px; margin:0 auto;}
+      .payway_box>fieldset{width:100%; height:100%;}
+      #accountBox{margin-right:10px;}
+      label[for="accountBox"]{margin-right:100px;}
+      #cardBox{margin-right:10px;}
+      label[for="cardBox"]{margin-right:100px;}
+      #phoneBox{margin-right:10px;}
+      /*label[for="phoneBox"]{}*/
+      .payway_box dl{width:250px; height:30px;margin-top:10px;}
+      .payway_box dl>dt{width:100px; height:30px; float:left; line-height: 30px;}
+      .payway_box dl>dd{width:100px; height:30px; float:left; background-color:#fff;}
+  #pay_btn{width:100px; height:30px; background-color:#add; float:right;margin-top:30px;}
+  #pay_btn>button{width:100px; height:30px;background-color:transparent; color:#333;}
